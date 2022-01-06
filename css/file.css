@@ -1,0 +1,24 @@
+.upload-content input[type='file'],
+#submit-btn{
+    display: none;
+}
+
+.upload-content label{
+    background: #5c80d1;
+    color: #ddd;
+    border-radius: 5px;
+}
+#attach {
+    background: #ddd;
+    color: #333;
+}
+
+#attach:hover{
+    background: rgb(117, 199, 69);
+    color: white;
+}
+
+.upload-content label:hover {
+    color: white;
+    cursor: pointer;
+}

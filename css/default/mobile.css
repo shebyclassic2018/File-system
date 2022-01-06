@@ -1,0 +1,140 @@
+@media only screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 15px;
+        background-color: #222;
+        font-size: x-large;
+        color: rgb(177, 177, 105);
+        color: #75a011
+    }
+
+    header div:first-child {
+        padding-right: 10px;
+    }
+
+    nav {
+        display: flex;
+        /* background-color: beige; */
+        padding: 10px;
+    }
+
+    nav div {
+        flex: 1;
+    }
+
+    main {
+        height: calc(100% - 150px);
+        /* background: url("../../image/img2.jpg"); */
+        background-size: 100% 100%;
+    }
+
+    .music-list-array {
+        height: calc(100% - 50px);
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .progress-bar {
+        height: 50px;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 -1px 5 px rgba(0, 0, 0, .5);
+    }
+
+    .input-range {
+        position: relative;
+        height: 3px;
+        width: 100%;
+        background-color: silver;
+        border-radius: 5px;
+    }
+
+    .input-range .input-slider {
+        position: relative;
+        height: 100%;
+        width: 80%;
+        background-color: blue;
+    }
+
+    .input-range .input-slider:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -8px;
+        transform: translate(-50%, -50%);
+        height: 8px;
+        width: 8px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+
+    .properties {
+        display: flex;
+        height: calc(100%);
+    }
+
+    .properties .item {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .properties div:nth-child(2) {
+        flex: 1;
+        padding: 0 5px;
+    }
+
+    .swiper-slide .top {
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide .top .logo {
+        background: #333;
+        color: white;
+        height: 128px;
+        width: 128px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 76px;
+        border-radius: 5px;
+    }
+
+    .swiper-slide .bottom {
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        -webkit-text-stroke: .5px black;
+    }
+
+    footer {
+        display: flex;
+        height: 50px;
+        background: linear-gradient(to right bottom, rgb(216, 158, 124), silver);
+    }
+
+    footer div {
+        flex: 1;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
